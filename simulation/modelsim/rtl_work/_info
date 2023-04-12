@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Program Files/Verilog/tinyCPU/simulation/modelsim
+vALU
+Z1 !s110 1681319540
+!i10b 1
+!s100 >Q<_IFQ`^7:Mc9NmmmXg11
+IJD6>YzWbgDY<PQPdJXFH;0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1681318183
+8F:/Program Files/Verilog/tinyCPU/src/ALU.v
+FF:/Program Files/Verilog/tinyCPU/src/ALU.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1681319540.034000
+!s107 F:/Program Files/Verilog/tinyCPU/src/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Program Files/Verilog/tinyCPU/src|F:/Program Files/Verilog/tinyCPU/src/ALU.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+F:/Program Files/Verilog/tinyCPU/src}
+n@a@l@u
+vALU_vlg_tst
+R1
+!i10b 1
+!s100 lMaXKLS46TSEV=1?ojLoP3
+IJlh>jmdhV7]`XoIBLR09I0
+R2
+R0
+w1681319521
+8F:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt
+FF:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1681319540.089000
+!s107 F:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Program Files/Verilog/tinyCPU/simulation/modelsim|F:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work {+incdir+F:/Program Files/Verilog/tinyCPU/simulation/modelsim}
+n@a@l@u_vlg_tst

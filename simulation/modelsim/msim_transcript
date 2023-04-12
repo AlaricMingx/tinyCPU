@@ -1,0 +1,55 @@
+# Reading F:/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do tinyCPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying F:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/Program\ Files/Verilog/tinyCPU/src {F:/Program Files/Verilog/tinyCPU/src/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:12:20 on Apr 13,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Program Files/Verilog/tinyCPU/src" F:/Program Files/Verilog/tinyCPU/src/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 01:12:20 on Apr 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+F:/Program\ Files/Verilog/tinyCPU/simulation/modelsim {F:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:12:20 on Apr 13,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Program Files/Verilog/tinyCPU/simulation/modelsim" F:/Program Files/Verilog/tinyCPU/simulation/modelsim/ALU.vt 
+# -- Compiling module ALU_vlg_tst
+# 
+# Top level modules:
+# 	ALU_vlg_tst
+# End time: 01:12:20 on Apr 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_vlg_tst
+# vsim -gui "+altera" -l msim_transcript -do "tinyCPU_run_msim_rtl_verilog.do" 
+# Start time: 01:12:20 on Apr 13,2023
+# Loading work.ALU_vlg_tst
+# Loading work.ALU
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 01:13:20 on Apr 13,2023, Elapsed time: 0:01:00
+# Errors: 3, Warnings: 1
