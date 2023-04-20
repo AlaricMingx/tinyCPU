@@ -1,13 +1,13 @@
-Fitter Status : Successful - Thu Apr 13 00:57:29 2023
+Fitter Status : Successful - Thu Apr 20 21:55:46 2023
 Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
 Revision Name : tinyCPU
-Top-level Entity Name : ALU
+Top-level Entity Name : tinyCPU
 Family : Cyclone V
 Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization (in ALMs) : 96 / 56,480 ( < 1 % )
-Total registers : 33
-Total pins : 102 / 268 ( 38 % )
+Logic utilization (in ALMs) : 1 / 56,480 ( < 1 % )
+Total registers : 0
+Total pins : 3 / 268 ( 1 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 7,024,640 ( 0 % )
 Total RAM Blocks : 0 / 686 ( 0 % )

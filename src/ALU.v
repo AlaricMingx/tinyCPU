@@ -13,7 +13,7 @@ module ALU (
 			4'b0001 : result = a | b;
 			4'b0010 : result = a + b;
 			4'b0110 : result = a - b;
-			//0111  set on lesss than
+			//0111  set on less than
 			4'b0111 : result = (a <= b)?1:0;
 			default : result = 0;
 		endcase
