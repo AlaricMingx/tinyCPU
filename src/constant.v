@@ -1,1 +1,2 @@
-`define R_Opcode 6'd0
+`define WORD_SIZE 32
+

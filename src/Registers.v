@@ -5,11 +5,11 @@ module Registers (
 		input wire[4:0] ReadReg1,
 		input wire[4:0] ReadReg2,
 		input wire[4:0] WriteReg,
-		input wire[31:0] WriteData,
-		output reg[31:0] ReadData1,
-		output reg[31:0] ReadData2
+		input wire[`WORD_SIZE - 1:0] WriteData,
+		output reg[`WORD_SIZE - 1:0] ReadData1,
+		output reg[`WORD_SIZE - 1:0] ReadData2
 );
-	reg[31:0] regfile[31:0];
+	reg[`WORD_SIZE - 1:0] regfile[`WORD_SIZE - 1:0];
 
 	always @(posedge clk) begin
 		ReadData1 = 0;

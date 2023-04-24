@@ -3,6 +3,7 @@ source_file = 1, F:/Program Files/Verilog/tinyCPU/src/tinyCPU.v
 source_file = 1, F:/Program Files/Verilog/tinyCPU/src/ALU.v
 source_file = 1, F:/Program Files/Verilog/tinyCPU/src/Registers.v
 source_file = 1, F:/Program Files/Verilog/tinyCPU/src/constant.v
+source_file = 1, F:/Program Files/Verilog/tinyCPU/src/Mem.v
 source_file = 1, F:/Program Files/Verilog/tinyCPU/db/tinyCPU.cbx.xml
 design_name = tinyCPU
 instance = comp, \b~output , b~output, tinyCPU, 1

@@ -1,10 +1,10 @@
 module ALU (
 		input clk,
 		input wire[3:0] ALUop,
-		input wire[31:0] a,
-		input wire[31:0] b,
+		input wire[`WORD_SIZE - 1:0] a,
+		input wire[`WORD_SIZE - 1:0] b,
 		output reg zero,
-		output reg[31:0] result
+		output reg[`WORD_SIZE - 1:0] result
 );
 
 	always @(posedge clk) begin
