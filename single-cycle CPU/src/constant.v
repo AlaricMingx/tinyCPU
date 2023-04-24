@@ -1,2 +1,9 @@
 `define WORD_SIZE 32
 
+`define R_Opcode 6'd0
+
+//I-TYPE
+`define OPCODE_ADDI 6'b001000
+`define OPCODE_ADDIU 6'b001001
+`define OPCODE_ANDI 6'b001100
+`define OPCODE_ORI 6'b001101

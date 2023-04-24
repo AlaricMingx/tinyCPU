@@ -17,10 +17,7 @@ module Mem (
 			2'b01: ReadData = mem[Address];
 			//sw
 			2'b10: mem[Address] = WriteData;
-			
-			//2'b00:
-			//default:
-			
+						
 		endcase 
 	end
 
