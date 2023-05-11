@@ -1,6 +1,6 @@
 module ALU (
 		input clk,
-		input wire[3:0] ALUop,
+		input wire[1:0] ALUop,
 		input wire[`WORD_SIZE - 1:0] a,
 		input wire[`WORD_SIZE - 1:0] b,
 		output reg zero,
@@ -9,19 +9,18 @@ module ALU (
 
 	always @(posedge clk) begin
 		case(ALUop)
-			4'b0000 : result = a & b;
-			4'b0001 : result = a | b;
-			4'b0010 : result = a + b;
-			4'b0110 : result = a - b;
-			//0111  set on less than
-			4'b0111 : result = (a <= b)?1:0;
-			default : result = 0;
+			2'b00 : result <= a + b;
+			2'b01 : result <= a - b;
+			2'b10 : result <= 0;//由func7与func3决定
+			default : result <= 0;
 		endcase
 		
 		case(result)
-			32'b0 : zero = 1;
-			default : zero = 0;
+			32'b0 : zero <= 1;
+			default : zero <= 0;
 		endcase
 	end
 
 endmodule
+
+module Add

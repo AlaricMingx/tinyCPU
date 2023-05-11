@@ -8,7 +8,7 @@ module Mem (
 		output reg[`WORD_SIZE - 1:0] ReadData
 );
 
-	reg[`WORD_SIZE - 1:0] mem[`WORD_SIZE - 1:0];
+	reg[`WORD_SIZE - 1:0] mem[0:1023];
 
 	always @(posedge clk) begin
 		ReadData = 0;
